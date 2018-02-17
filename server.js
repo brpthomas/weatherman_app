@@ -7,4 +7,4 @@ app.get('*', (req, res) => {
  res.sendFile(path.resolve(__dirname, 'index.html'));
 });
 app.listen(port);
-console.log("server start");
+console.log("server start on: ", port);

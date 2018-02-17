@@ -15,14 +15,18 @@
     "react-scripts": "1.1.1",
     "react-sparklines": "1.4.2",
     "redux": "^3.0.4",
-    "redux-promise": "^0.5.3"
+    "redux-promise": "^0.5.3",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-merge": "^4.1.1"
   },
   "scripts": {
-   "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-   "start": "node server.js",
-   "postinstall": "webpack -p",
-   "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-   "test:watch": "npm run test -- --watch"
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "node server.js",
+    "postinstall": "webpack -p",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test:watch": "npm run test -- --watch"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",

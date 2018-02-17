@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY ='f74ece7ce4eed1a66277cd31f303aded';
-const ROOT_URL = `http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
+const ROOT_URL = `https://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
 
 //make a single varible to hold the action type, so we dont have to copy and paste string from different files
 //so now it doesnt matter what the string is at the start

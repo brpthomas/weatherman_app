@@ -8,6 +8,7 @@ class GoogleMap extends Component {
 	// most of the time third party API does not know that it is being used in React so this is the set up to make it work within the React Ecosystem
 	
 	componentDidMount(){
+		const google = window.google;
 		new google.maps.Map(this.refs.map, {
 			zoom: 12,
 			center: {
